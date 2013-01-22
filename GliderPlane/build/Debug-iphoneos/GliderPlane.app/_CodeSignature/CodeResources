@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Cloud Back2.png</key>
+		<data>
+		9k6twVIIp2lYybP2jVsTF4wLCgQ=
+		</data>
+		<key>Cloud Final.png</key>
+		<data>
+		HcRZNugmAiKYHHj5x3PyS6LyRfc=
+		</data>
+		<key>Cloud Help2.png</key>
+		<data>
+		L3q2u5lbMEtnEW4FlAUeXRaynOk=
+		</data>
+		<key>Cloud Highscore2.png</key>
+		<data>
+		NSaK4FMZjBprjOfAhwZe6O6k+GY=
+		</data>
+		<key>Cloud Menu2.png</key>
+		<data>
+		V2fBWuYTUXfkxgWwk0eKViSV5bg=
+		</data>
+		<key>Cloud Play2.png</key>
+		<data>
+		PbpBgtyIYWaYrYx3zNR3LR9/aqU=
+		</data>
+		<key>Cloud Resume2.png</key>
+		<data>
+		H3ylzcQqJSBN2UgTSws3dCTsWvI=
+		</data>
+		<key>Cloud Settings2.png</key>
+		<data>
+		T+uNhobJcngRPObNy7Y9Hlkvpk4=
+		</data>
+		<key>Default.png</key>
+		<data>
+		HwJbCZ3uxG+xZgZMmz+q8LI0waw=
+		</data>
+		<key>GameScreen.png</key>
+		<data>
+		AgDncqBCt8Iuyk/JQDGA0ySfcXM=
+		</data>
+		<key>Glider Final.png</key>
+		<data>
+		/6dQlobokE4Sv3yoa0+kSHnbT4U=
+		</data>
+		<key>GliderPlaneViewController.nib</key>
+		<data>
+		36GOuoUiDeEFzbP6iIFOaayv7cU=
+		</data>
+		<key>HelpViewController.nib</key>
+		<data>
+		uvmKaTHr+KVd9brIItkFvWzF5G8=
+		</data>
+		<key>Icon.png</key>
+		<data>
+		kF9bHKUXAd9hzUeyuGxY0swKHJA=
+		</data>
+		<key>MainWindow.nib</key>
+		<data>
+		WPomrdsqjX1zkmCCMVtGR9c76Zw=
+		</data>
+		<key>MenuScreen.png</key>
+		<data>
+		Ft8kSEqWGGk/gN0S3NRZGzYTx3c=
+		</data>
+		<key>PauseViewController.nib</key>
+		<data>
+		C10AojQYEENkoLI0HSo4obddQRM=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>PlayViewContoller.nib</key>
+		<data>
+		SYBVze14gHqYTpzj40nypRQu1K4=
+		</data>
+		<key>Ring.png</key>
+		<data>
+		2JtwR0F2ymnuO29shtuhu9VQwzU=
+		</data>
+		<key>SettingsViewController.nib</key>
+		<data>
+		fq8XNlohufexe94XOPFvNvZri50=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		5nA5gIAlKVgdF3Sf8BVCFLDI6F8=
+		</data>
+		<key>glider.png</key>
+		<data>
+		MBOrY9Sz4IGmUZlWaBmZJtpKvWU=
+		</data>
+		<key>goal.png</key>
+		<data>
+		Ob/CaD5b79l0L7yHZW2JHSmvUag=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

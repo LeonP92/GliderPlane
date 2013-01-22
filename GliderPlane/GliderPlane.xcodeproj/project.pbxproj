@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* GliderPlaneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GliderPlaneAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* GliderPlaneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* GliderPlaneViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* GliderPlaneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* GliderPlaneViewController.m */; };
+		CE0A7EFB139C4E1D002E6348 /* blimp_left.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EEC139C4E1D002E6348 /* blimp_left.png */; };
+		CE0A7EFC139C4E1D002E6348 /* blimp.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EED139C4E1D002E6348 /* blimp.png */; };
+		CE0A7EFD139C4E1D002E6348 /* blimp2_right.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EEE139C4E1D002E6348 /* blimp2_right.png */; };
+		CE0A7EFE139C4E1D002E6348 /* jet_left.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EEF139C4E1D002E6348 /* jet_left.png */; };
+		CE0A7EFF139C4E1D002E6348 /* jet_right.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EF0139C4E1D002E6348 /* jet_right.png */; };
+		CE0A7F00139C4E1D002E6348 /* jet.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EF1139C4E1D002E6348 /* jet.png */; };
+		CE0A7F01139C4E1D002E6348 /* plane_left.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EF2139C4E1D002E6348 /* plane_left.png */; };
+		CE0A7F02139C4E1D002E6348 /* plane_right.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EF3139C4E1D002E6348 /* plane_right.png */; };
+		CE0A7F03139C4E1D002E6348 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EF4139C4E1D002E6348 /* plane.png */; };
+		CE0A7F04139C4E1D002E6348 /* saucer_left.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EF5139C4E1D002E6348 /* saucer_left.png */; };
+		CE0A7F05139C4E1D002E6348 /* saucer_right.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EF6139C4E1D002E6348 /* saucer_right.png */; };
+		CE0A7F06139C4E1D002E6348 /* saucer.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EF7139C4E1D002E6348 /* saucer.png */; };
+		CE0A7F07139C4E1D002E6348 /* Sky_Dragon_Left.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EF8139C4E1D002E6348 /* Sky_Dragon_Left.png */; };
+		CE0A7F08139C4E1D002E6348 /* Sky_Dragon_Right.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EF9139C4E1D002E6348 /* Sky_Dragon_Right.png */; };
+		CE0A7F09139C4E1D002E6348 /* Sky_Dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0A7EFA139C4E1D002E6348 /* Sky_Dragon.png */; };
+		CE1F7DC01331BA32001AD892 /* HighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F7DBE1331BA32001AD892 /* HighScoreViewController.m */; };
+		CE1F7DC11331BA32001AD892 /* HighScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1F7DBF1331BA32001AD892 /* HighScoreViewController.xib */; };
+		CE671DAF13985242009E2D90 /* Shelf.png in Resources */ = {isa = PBXBuildFile; fileRef = CE671DAE13985242009E2D90 /* Shelf.png */; };
+		CE6CC8ED130B93EE00ABD2AC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6CC8EC130B93EE00ABD2AC /* QuartzCore.framework */; };
+		CE7B93441343B2F4000F16AF /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7B93431343B2F4000F16AF /* GameKit.framework */; };
+		CE7BECCB1342EF97000C0A2E /* SubmitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7BECCA1342EF97000C0A2E /* SubmitButton.png */; };
+		CE878800134BBC9F003F215A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8787FF134BBC9F003F215A /* Icon.png */; };
+		CE878807134BC985003F215A /* ClassicButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE878803134BC983003F215A /* ClassicButton.png */; };
+		CE878808134BC985003F215A /* EndlessButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE878804134BC984003F215A /* EndlessButton.png */; };
+		CE878809134BC985003F215A /* LifeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE878805134BC985003F215A /* LifeButton.png */; };
+		CE87880A134BC985003F215A /* ModeSelection.png in Resources */ = {isa = PBXBuildFile; fileRef = CE878806134BC985003F215A /* ModeSelection.png */; };
+		CE995D91130A3B7900898588 /* PlayViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = CE995D8F130A3B7900898588 /* PlayViewContoller.m */; };
+		CE995D92130A3B7900898588 /* PlayViewContoller.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE995D90130A3B7900898588 /* PlayViewContoller.xib */; };
+		CE995DAC130A40CE00898588 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE995DAA130A40CE00898588 /* HelpViewController.m */; };
+		CE995DAD130A40CE00898588 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE995DAB130A40CE00898588 /* HelpViewController.xib */; };
+		CEAB7684133564260034DC08 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB7683133564260034DC08 /* iAd.framework */; };
+		CEB478521331718A004AE874 /* HelpScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB478511331718A004AE874 /* HelpScreen.png */; };
+		CEB4785413317191004AE874 /* PausedTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB4785313317191004AE874 /* PausedTitle.png */; };
+		CEB4AFD41315BB9500421F14 /* GameScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB4AFCA1315BB9500421F14 /* GameScreen.png */; };
+		CEB4AFD51315BB9500421F14 /* MenuScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB4AFCB1315BB9500421F14 /* MenuScreen.png */; };
+		CEB9C3E91385FE1300761D37 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB9C3E71385FE1300761D37 /* SetViewController.m */; };
+		CEB9C3EA1385FE1300761D37 /* SetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C3E81385FE1300761D37 /* SetViewController.xib */; };
+		CEC1C752134A5F2100893771 /* EndlessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1C750134A5F2100893771 /* EndlessViewController.m */; };
+		CEC1C753134A5F2100893771 /* EndlessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC1C751134A5F2100893771 /* EndlessViewController.xib */; };
+		CEC1C75C134A610800893771 /* LifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1C75A134A610800893771 /* LifeViewController.m */; };
+		CEC1C75D134A610800893771 /* LifeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC1C75B134A610800893771 /* LifeViewController.xib */; };
+		CECF70DB139C5E8D00C5DE44 /* arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = CECF70D9139C5E8D00C5DE44 /* arrow_left.png */; };
+		CECF70DC139C5E8D00C5DE44 /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = CECF70DA139C5E8D00C5DE44 /* arrow_right.png */; };
+		CED1E0E513E9CCE600E1979A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CED1E0E413E9CCE600E1979A /* Default.png */; };
+		CED2138E133531F4005BD19C /* HighScore.png in Resources */ = {isa = PBXBuildFile; fileRef = CED2138D133531F4005BD19C /* HighScore.png */; };
+		CED77A9213B7A07C007FAD2F /* sensitivityTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = CED77A9113B7A07C007FAD2F /* sensitivityTitle.png */; };
+		CED77A9613B7A083007FAD2F /* dragonfly copy.png in Resources */ = {isa = PBXBuildFile; fileRef = CED77A9313B7A083007FAD2F /* dragonfly copy.png */; };
+		CED77A9713B7A083007FAD2F /* dragonfly_left.png in Resources */ = {isa = PBXBuildFile; fileRef = CED77A9413B7A083007FAD2F /* dragonfly_left.png */; };
+		CED77A9813B7A083007FAD2F /* dragonfly_right.png in Resources */ = {isa = PBXBuildFile; fileRef = CED77A9513B7A083007FAD2F /* dragonfly_right.png */; };
+		CEE5E8161357ABA30034CAFA /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE5E8141357ABA30034CAFA /* ShopViewController.m */; };
+		CEE5E8171357ABA30034CAFA /* ShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE5E8151357ABA30034CAFA /* ShopViewController.xib */; };
+		CEE5E8241358B4AE0034CAFA /* Crane_tiltleft2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE5E8181358B4AD0034CAFA /* Crane_tiltleft2.png */; };
+		CEE5E8251358B4AE0034CAFA /* Crane_tiltright2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE5E8191358B4AD0034CAFA /* Crane_tiltright2.png */; };
+		CEE5E8261358B4AE0034CAFA /* Crane.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE5E81A1358B4AD0034CAFA /* Crane.png */; };
+		CEE5E82A1358B4AE0034CAFA /* Kite_tiltleft.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE5E81E1358B4AE0034CAFA /* Kite_tiltleft.png */; };
+		CEE5E82B1358B4AE0034CAFA /* Kite_tiltright.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE5E81F1358B4AE0034CAFA /* Kite_tiltright.png */; };
+		CEE5E82C1358B4AE0034CAFA /* Kite.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE5E8201358B4AE0034CAFA /* Kite.png */; };
+		CEE5E82D1358B4AE0034CAFA /* rocket2_tiltleft.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE5E8211358B4AE0034CAFA /* rocket2_tiltleft.png */; };
+		CEE5E82E1358B4AE0034CAFA /* rocket2_tiltright.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE5E8221358B4AE0034CAFA /* rocket2_tiltright.png */; };
+		CEE5E82F1358B4AE0034CAFA /* rocket2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE5E8231358B4AE0034CAFA /* rocket2.png */; };
+		CEE76ADC1364C32400811E8B /* Cloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE76ADB1364C32400811E8B /* Cloud2.png */; };
+		CEEAEA46136E5C78005ACBA6 /* questionmark.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEAEA44136E5C78005ACBA6 /* questionmark.png */; };
+		CEEAEA47136E5C78005ACBA6 /* ShopButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEAEA45136E5C78005ACBA6 /* ShopButton2.png */; };
+		CEED80CE134A599700F0A772 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED80CC134A599700F0A772 /* SelectViewController.m */; };
+		CEED80CF134A599700F0A772 /* SelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEED80CD134A599700F0A772 /* SelectViewController.xib */; };
+		CEF692041319B47900909B2A /* Cloud Back2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF691FD1319B47900909B2A /* Cloud Back2.png */; };
+		CEF692051319B47900909B2A /* Cloud Help2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF691FE1319B47900909B2A /* Cloud Help2.png */; };
+		CEF692061319B47900909B2A /* Cloud Highscore2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF691FF1319B47900909B2A /* Cloud Highscore2.png */; };
+		CEF692071319B47900909B2A /* Cloud Menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF692001319B47900909B2A /* Cloud Menu2.png */; };
+		CEF692081319B47900909B2A /* Cloud Play2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF692011319B47900909B2A /* Cloud Play2.png */; };
+		CEF692091319B47900909B2A /* Cloud Resume2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF692021319B47900909B2A /* Cloud Resume2.png */; };
+		CEF6920A1319B47900909B2A /* Cloud Settings2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF692031319B47900909B2A /* Cloud Settings2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* GliderPlaneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GliderPlaneAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* GliderPlaneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GliderPlaneAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
+		1D6058910D05DD3D006BFB54 /* GliderPlane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GliderPlane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* GliderPlaneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GliderPlaneViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* GliderPlaneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GliderPlaneViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* GliderPlaneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GliderPlaneViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* GliderPlane_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GliderPlane_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* GliderPlane-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GliderPlane-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CE0A7EEC139C4E1D002E6348 /* blimp_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blimp_left.png; sourceTree = "<group>"; };
+		CE0A7EED139C4E1D002E6348 /* blimp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blimp.png; sourceTree = "<group>"; };
+		CE0A7EEE139C4E1D002E6348 /* blimp2_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blimp2_right.png; sourceTree = "<group>"; };
+		CE0A7EEF139C4E1D002E6348 /* jet_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jet_left.png; sourceTree = "<group>"; };
+		CE0A7EF0139C4E1D002E6348 /* jet_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jet_right.png; sourceTree = "<group>"; };
+		CE0A7EF1139C4E1D002E6348 /* jet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jet.png; sourceTree = "<group>"; };
+		CE0A7EF2139C4E1D002E6348 /* plane_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane_left.png; sourceTree = "<group>"; };
+		CE0A7EF3139C4E1D002E6348 /* plane_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane_right.png; sourceTree = "<group>"; };
+		CE0A7EF4139C4E1D002E6348 /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		CE0A7EF5139C4E1D002E6348 /* saucer_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saucer_left.png; sourceTree = "<group>"; };
+		CE0A7EF6139C4E1D002E6348 /* saucer_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saucer_right.png; sourceTree = "<group>"; };
+		CE0A7EF7139C4E1D002E6348 /* saucer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saucer.png; sourceTree = "<group>"; };
+		CE0A7EF8139C4E1D002E6348 /* Sky_Dragon_Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sky_Dragon_Left.png; sourceTree = "<group>"; };
+		CE0A7EF9139C4E1D002E6348 /* Sky_Dragon_Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sky_Dragon_Right.png; sourceTree = "<group>"; };
+		CE0A7EFA139C4E1D002E6348 /* Sky_Dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sky_Dragon.png; sourceTree = "<group>"; };
+		CE1F7DBD1331BA32001AD892 /* HighScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreViewController.h; sourceTree = "<group>"; };
+		CE1F7DBE1331BA32001AD892 /* HighScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreViewController.m; sourceTree = "<group>"; };
+		CE1F7DBF1331BA32001AD892 /* HighScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HighScoreViewController.xib; path = Classes/HighScoreViewController.xib; sourceTree = "<group>"; };
+		CE671DAE13985242009E2D90 /* Shelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shelf.png; path = ../../../Pictures/GliderPlane/Shelf.png; sourceTree = "<group>"; };
+		CE6CC8EC130B93EE00ABD2AC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE7B93431343B2F4000F16AF /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		CE7BECCA1342EF97000C0A2E /* SubmitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SubmitButton.png; sourceTree = "<group>"; };
+		CE8787FF134BBC9F003F215A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CE878803134BC983003F215A /* ClassicButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClassicButton.png; sourceTree = "<group>"; };
+		CE878804134BC984003F215A /* EndlessButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EndlessButton.png; sourceTree = "<group>"; };
+		CE878805134BC985003F215A /* LifeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LifeButton.png; sourceTree = "<group>"; };
+		CE878806134BC985003F215A /* ModeSelection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ModeSelection.png; sourceTree = "<group>"; };
+		CE995D8E130A3B7900898588 /* PlayViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewContoller.h; sourceTree = "<group>"; };
+		CE995D8F130A3B7900898588 /* PlayViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewContoller.m; sourceTree = "<group>"; };
+		CE995D90130A3B7900898588 /* PlayViewContoller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PlayViewContoller.xib; path = Classes/PlayViewContoller.xib; sourceTree = "<group>"; };
+		CE995DA9130A40CE00898588 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		CE995DAA130A40CE00898588 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		CE995DAB130A40CE00898588 /* HelpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HelpViewController.xib; path = Classes/HelpViewController.xib; sourceTree = "<group>"; };
+		CEAB7683133564260034DC08 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		CEB478511331718A004AE874 /* HelpScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelpScreen.png; sourceTree = "<group>"; };
+		CEB4785313317191004AE874 /* PausedTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PausedTitle.png; sourceTree = "<group>"; };
+		CEB4AFCA1315BB9500421F14 /* GameScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameScreen.png; sourceTree = "<group>"; };
+		CEB4AFCB1315BB9500421F14 /* MenuScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuScreen.png; sourceTree = "<group>"; };
+		CEB9C3E61385FE1300761D37 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		CEB9C3E71385FE1300761D37 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		CEB9C3E81385FE1300761D37 /* SetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SetViewController.xib; path = Classes/SetViewController.xib; sourceTree = "<group>"; };
+		CEC1C74F134A5F2100893771 /* EndlessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndlessViewController.h; sourceTree = "<group>"; };
+		CEC1C750134A5F2100893771 /* EndlessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndlessViewController.m; sourceTree = "<group>"; };
+		CEC1C751134A5F2100893771 /* EndlessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EndlessViewController.xib; path = Classes/EndlessViewController.xib; sourceTree = "<group>"; };
+		CEC1C759134A610800893771 /* LifeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeViewController.h; sourceTree = "<group>"; };
+		CEC1C75A134A610800893771 /* LifeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeViewController.m; sourceTree = "<group>"; };
+		CEC1C75B134A610800893771 /* LifeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LifeViewController.xib; path = Classes/LifeViewController.xib; sourceTree = "<group>"; };
+		CECF70D9139C5E8D00C5DE44 /* arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_left.png; sourceTree = "<group>"; };
+		CECF70DA139C5E8D00C5DE44 /* arrow_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_right.png; sourceTree = "<group>"; };
+		CED1E0E413E9CCE600E1979A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CED2138D133531F4005BD19C /* HighScore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HighScore.png; sourceTree = "<group>"; };
+		CED77A9113B7A07C007FAD2F /* sensitivityTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sensitivityTitle.png; sourceTree = "<group>"; };
+		CED77A9313B7A083007FAD2F /* dragonfly copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dragonfly copy.png"; sourceTree = "<group>"; };
+		CED77A9413B7A083007FAD2F /* dragonfly_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragonfly_left.png; sourceTree = "<group>"; };
+		CED77A9513B7A083007FAD2F /* dragonfly_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragonfly_right.png; sourceTree = "<group>"; };
+		CEE5E8131357ABA30034CAFA /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		CEE5E8141357ABA30034CAFA /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		CEE5E8151357ABA30034CAFA /* ShopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShopViewController.xib; path = Classes/ShopViewController.xib; sourceTree = "<group>"; };
+		CEE5E8181358B4AD0034CAFA /* Crane_tiltleft2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Crane_tiltleft2.png; sourceTree = "<group>"; };
+		CEE5E8191358B4AD0034CAFA /* Crane_tiltright2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Crane_tiltright2.png; sourceTree = "<group>"; };
+		CEE5E81A1358B4AD0034CAFA /* Crane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Crane.png; sourceTree = "<group>"; };
+		CEE5E81E1358B4AE0034CAFA /* Kite_tiltleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kite_tiltleft.png; sourceTree = "<group>"; };
+		CEE5E81F1358B4AE0034CAFA /* Kite_tiltright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kite_tiltright.png; sourceTree = "<group>"; };
+		CEE5E8201358B4AE0034CAFA /* Kite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kite.png; sourceTree = "<group>"; };
+		CEE5E8211358B4AE0034CAFA /* rocket2_tiltleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket2_tiltleft.png; sourceTree = "<group>"; };
+		CEE5E8221358B4AE0034CAFA /* rocket2_tiltright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket2_tiltright.png; sourceTree = "<group>"; };
+		CEE5E8231358B4AE0034CAFA /* rocket2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket2.png; sourceTree = "<group>"; };
+		CEE76ADB1364C32400811E8B /* Cloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud2.png; sourceTree = "<group>"; };
+		CEEAEA44136E5C78005ACBA6 /* questionmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = questionmark.png; sourceTree = "<group>"; };
+		CEEAEA45136E5C78005ACBA6 /* ShopButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShopButton2.png; sourceTree = "<group>"; };
+		CEED80CB134A599700F0A772 /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		CEED80CC134A599700F0A772 /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		CEED80CD134A599700F0A772 /* SelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SelectViewController.xib; path = Classes/SelectViewController.xib; sourceTree = "<group>"; };
+		CEF691FD1319B47900909B2A /* Cloud Back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud Back2.png"; sourceTree = "<group>"; };
+		CEF691FE1319B47900909B2A /* Cloud Help2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud Help2.png"; sourceTree = "<group>"; };
+		CEF691FF1319B47900909B2A /* Cloud Highscore2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud Highscore2.png"; sourceTree = "<group>"; };
+		CEF692001319B47900909B2A /* Cloud Menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud Menu2.png"; sourceTree = "<group>"; };
+		CEF692011319B47900909B2A /* Cloud Play2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud Play2.png"; sourceTree = "<group>"; };
+		CEF692021319B47900909B2A /* Cloud Resume2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud Resume2.png"; sourceTree = "<group>"; };
+		CEF692031319B47900909B2A /* Cloud Settings2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud Settings2.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7B93441343B2F4000F16AF /* GameKit.framework in Frameworks */,
+				CEAB7684133564260034DC08 /* iAd.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				CE6CC8ED130B93EE00ABD2AC /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* GliderPlaneAppDelegate.h */,
+				1D3623250D0F684500981E51 /* GliderPlaneAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* GliderPlaneViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* GliderPlaneViewController.m */,
+				CEED80CB134A599700F0A772 /* SelectViewController.h */,
+				CEED80CC134A599700F0A772 /* SelectViewController.m */,
+				CE995D8E130A3B7900898588 /* PlayViewContoller.h */,
+				CE995D8F130A3B7900898588 /* PlayViewContoller.m */,
+				CEC1C74F134A5F2100893771 /* EndlessViewController.h */,
+				CEC1C750134A5F2100893771 /* EndlessViewController.m */,
+				CEC1C759134A610800893771 /* LifeViewController.h */,
+				CEC1C75A134A610800893771 /* LifeViewController.m */,
+				CE995DA9130A40CE00898588 /* HelpViewController.h */,
+				CE995DAA130A40CE00898588 /* HelpViewController.m */,
+				CE1F7DBD1331BA32001AD892 /* HighScoreViewController.h */,
+				CE1F7DBE1331BA32001AD892 /* HighScoreViewController.m */,
+				CEE5E8131357ABA30034CAFA /* ShopViewController.h */,
+				CEE5E8141357ABA30034CAFA /* ShopViewController.m */,
+				CEB9C3E61385FE1300761D37 /* SetViewController.h */,
+				CEB9C3E71385FE1300761D37 /* SetViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* GliderPlane.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B93431343B2F4000F16AF /* GameKit.framework */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* GliderPlane_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9C3E81385FE1300761D37 /* SetViewController.xib */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				CED11E29130E444D002C00AC /* Images */,
+				2899E5210DE3E06400AC0155 /* GliderPlaneViewController.xib */,
+				CEED80CD134A599700F0A772 /* SelectViewController.xib */,
+				CE1F7DBF1331BA32001AD892 /* HighScoreViewController.xib */,
+				CEE5E8151357ABA30034CAFA /* ShopViewController.xib */,
+				CE995D90130A3B7900898588 /* PlayViewContoller.xib */,
+				CEC1C751134A5F2100893771 /* EndlessViewController.xib */,
+				CEC1C75B134A610800893771 /* LifeViewController.xib */,
+				CE995DAB130A40CE00898588 /* HelpViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* GliderPlane-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB7683133564260034DC08 /* iAd.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				CE6CC8EC130B93EE00ABD2AC /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED11E29130E444D002C00AC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CED1E0E413E9CCE600E1979A /* Default.png */,
+				CED77A9113B7A07C007FAD2F /* sensitivityTitle.png */,
+				CED77A9313B7A083007FAD2F /* dragonfly copy.png */,
+				CED77A9413B7A083007FAD2F /* dragonfly_left.png */,
+				CED77A9513B7A083007FAD2F /* dragonfly_right.png */,
+				CECF70D9139C5E8D00C5DE44 /* arrow_left.png */,
+				CECF70DA139C5E8D00C5DE44 /* arrow_right.png */,
+				CE0A7EEC139C4E1D002E6348 /* blimp_left.png */,
+				CE0A7EED139C4E1D002E6348 /* blimp.png */,
+				CE0A7EEE139C4E1D002E6348 /* blimp2_right.png */,
+				CE0A7EEF139C4E1D002E6348 /* jet_left.png */,
+				CE0A7EF0139C4E1D002E6348 /* jet_right.png */,
+				CE0A7EF1139C4E1D002E6348 /* jet.png */,
+				CE0A7EF2139C4E1D002E6348 /* plane_left.png */,
+				CE0A7EF3139C4E1D002E6348 /* plane_right.png */,
+				CE0A7EF4139C4E1D002E6348 /* plane.png */,
+				CE0A7EF5139C4E1D002E6348 /* saucer_left.png */,
+				CE0A7EF6139C4E1D002E6348 /* saucer_right.png */,
+				CE0A7EF7139C4E1D002E6348 /* saucer.png */,
+				CE0A7EF8139C4E1D002E6348 /* Sky_Dragon_Left.png */,
+				CE0A7EF9139C4E1D002E6348 /* Sky_Dragon_Right.png */,
+				CE0A7EFA139C4E1D002E6348 /* Sky_Dragon.png */,
+				CE671DAE13985242009E2D90 /* Shelf.png */,
+				CEEAEA44136E5C78005ACBA6 /* questionmark.png */,
+				CEEAEA45136E5C78005ACBA6 /* ShopButton2.png */,
+				CEE5E8181358B4AD0034CAFA /* Crane_tiltleft2.png */,
+				CEE5E8191358B4AD0034CAFA /* Crane_tiltright2.png */,
+				CEE5E81A1358B4AD0034CAFA /* Crane.png */,
+				CEE5E81E1358B4AE0034CAFA /* Kite_tiltleft.png */,
+				CEE5E81F1358B4AE0034CAFA /* Kite_tiltright.png */,
+				CEE5E8201358B4AE0034CAFA /* Kite.png */,
+				CEE5E8211358B4AE0034CAFA /* rocket2_tiltleft.png */,
+				CEE5E8221358B4AE0034CAFA /* rocket2_tiltright.png */,
+				CEE5E8231358B4AE0034CAFA /* rocket2.png */,
+				CE878803134BC983003F215A /* ClassicButton.png */,
+				CE878804134BC984003F215A /* EndlessButton.png */,
+				CE878805134BC985003F215A /* LifeButton.png */,
+				CE878806134BC985003F215A /* ModeSelection.png */,
+				CEB4785313317191004AE874 /* PausedTitle.png */,
+				CEB478511331718A004AE874 /* HelpScreen.png */,
+				CEF691FD1319B47900909B2A /* Cloud Back2.png */,
+				CEE76ADB1364C32400811E8B /* Cloud2.png */,
+				CE8787FF134BBC9F003F215A /* Icon.png */,
+				CEF691FE1319B47900909B2A /* Cloud Help2.png */,
+				CEF691FF1319B47900909B2A /* Cloud Highscore2.png */,
+				CED2138D133531F4005BD19C /* HighScore.png */,
+				CEF692001319B47900909B2A /* Cloud Menu2.png */,
+				CEF692011319B47900909B2A /* Cloud Play2.png */,
+				CEF692021319B47900909B2A /* Cloud Resume2.png */,
+				CE7BECCA1342EF97000C0A2E /* SubmitButton.png */,
+				CEF692031319B47900909B2A /* Cloud Settings2.png */,
+				CEB4AFCA1315BB9500421F14 /* GameScreen.png */,
+				CEB4AFCB1315BB9500421F14 /* MenuScreen.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* GliderPlane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GliderPlane" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GliderPlane;
+			productName = GliderPlane;
+			productReference = 1D6058910D05DD3D006BFB54 /* GliderPlane.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GliderPlane" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* GliderPlane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* GliderPlaneViewController.xib in Resources */,
+				CE995D92130A3B7900898588 /* PlayViewContoller.xib in Resources */,
+				CE995DAD130A40CE00898588 /* HelpViewController.xib in Resources */,
+				CEB4AFD41315BB9500421F14 /* GameScreen.png in Resources */,
+				CEB4AFD51315BB9500421F14 /* MenuScreen.png in Resources */,
+				CEF692041319B47900909B2A /* Cloud Back2.png in Resources */,
+				CEF692051319B47900909B2A /* Cloud Help2.png in Resources */,
+				CEF692061319B47900909B2A /* Cloud Highscore2.png in Resources */,
+				CEF692071319B47900909B2A /* Cloud Menu2.png in Resources */,
+				CEF692081319B47900909B2A /* Cloud Play2.png in Resources */,
+				CEF692091319B47900909B2A /* Cloud Resume2.png in Resources */,
+				CEF6920A1319B47900909B2A /* Cloud Settings2.png in Resources */,
+				CEB478521331718A004AE874 /* HelpScreen.png in Resources */,
+				CEB4785413317191004AE874 /* PausedTitle.png in Resources */,
+				CE1F7DC11331BA32001AD892 /* HighScoreViewController.xib in Resources */,
+				CED2138E133531F4005BD19C /* HighScore.png in Resources */,
+				CE7BECCB1342EF97000C0A2E /* SubmitButton.png in Resources */,
+				CEED80CF134A599700F0A772 /* SelectViewController.xib in Resources */,
+				CEC1C753134A5F2100893771 /* EndlessViewController.xib in Resources */,
+				CEC1C75D134A610800893771 /* LifeViewController.xib in Resources */,
+				CE878800134BBC9F003F215A /* Icon.png in Resources */,
+				CE878807134BC985003F215A /* ClassicButton.png in Resources */,
+				CE878808134BC985003F215A /* EndlessButton.png in Resources */,
+				CE878809134BC985003F215A /* LifeButton.png in Resources */,
+				CE87880A134BC985003F215A /* ModeSelection.png in Resources */,
+				CEE5E8171357ABA30034CAFA /* ShopViewController.xib in Resources */,
+				CEE5E8241358B4AE0034CAFA /* Crane_tiltleft2.png in Resources */,
+				CEE5E8251358B4AE0034CAFA /* Crane_tiltright2.png in Resources */,
+				CEE5E8261358B4AE0034CAFA /* Crane.png in Resources */,
+				CEE5E82A1358B4AE0034CAFA /* Kite_tiltleft.png in Resources */,
+				CEE5E82B1358B4AE0034CAFA /* Kite_tiltright.png in Resources */,
+				CEE5E82C1358B4AE0034CAFA /* Kite.png in Resources */,
+				CEE5E82D1358B4AE0034CAFA /* rocket2_tiltleft.png in Resources */,
+				CEE5E82E1358B4AE0034CAFA /* rocket2_tiltright.png in Resources */,
+				CEE5E82F1358B4AE0034CAFA /* rocket2.png in Resources */,
+				CEE76ADC1364C32400811E8B /* Cloud2.png in Resources */,
+				CEEAEA46136E5C78005ACBA6 /* questionmark.png in Resources */,
+				CEEAEA47136E5C78005ACBA6 /* ShopButton2.png in Resources */,
+				CEB9C3EA1385FE1300761D37 /* SetViewController.xib in Resources */,
+				CE671DAF13985242009E2D90 /* Shelf.png in Resources */,
+				CE0A7EFB139C4E1D002E6348 /* blimp_left.png in Resources */,
+				CE0A7EFC139C4E1D002E6348 /* blimp.png in Resources */,
+				CE0A7EFD139C4E1D002E6348 /* blimp2_right.png in Resources */,
+				CE0A7EFE139C4E1D002E6348 /* jet_left.png in Resources */,
+				CE0A7EFF139C4E1D002E6348 /* jet_right.png in Resources */,
+				CE0A7F00139C4E1D002E6348 /* jet.png in Resources */,
+				CE0A7F01139C4E1D002E6348 /* plane_left.png in Resources */,
+				CE0A7F02139C4E1D002E6348 /* plane_right.png in Resources */,
+				CE0A7F03139C4E1D002E6348 /* plane.png in Resources */,
+				CE0A7F04139C4E1D002E6348 /* saucer_left.png in Resources */,
+				CE0A7F05139C4E1D002E6348 /* saucer_right.png in Resources */,
+				CE0A7F06139C4E1D002E6348 /* saucer.png in Resources */,
+				CE0A7F07139C4E1D002E6348 /* Sky_Dragon_Left.png in Resources */,
+				CE0A7F08139C4E1D002E6348 /* Sky_Dragon_Right.png in Resources */,
+				CE0A7F09139C4E1D002E6348 /* Sky_Dragon.png in Resources */,
+				CECF70DB139C5E8D00C5DE44 /* arrow_left.png in Resources */,
+				CECF70DC139C5E8D00C5DE44 /* arrow_right.png in Resources */,
+				CED77A9213B7A07C007FAD2F /* sensitivityTitle.png in Resources */,
+				CED77A9613B7A083007FAD2F /* dragonfly copy.png in Resources */,
+				CED77A9713B7A083007FAD2F /* dragonfly_left.png in Resources */,
+				CED77A9813B7A083007FAD2F /* dragonfly_right.png in Resources */,
+				CED1E0E513E9CCE600E1979A /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* GliderPlaneAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* GliderPlaneViewController.m in Sources */,
+				CE995D91130A3B7900898588 /* PlayViewContoller.m in Sources */,
+				CE995DAC130A40CE00898588 /* HelpViewController.m in Sources */,
+				CE1F7DC01331BA32001AD892 /* HighScoreViewController.m in Sources */,
+				CEED80CE134A599700F0A772 /* SelectViewController.m in Sources */,
+				CEC1C752134A5F2100893771 /* EndlessViewController.m in Sources */,
+				CEC1C75C134A610800893771 /* LifeViewController.m in Sources */,
+				CEE5E8161357ABA30034CAFA /* ShopViewController.m in Sources */,
+				CEB9C3E91385FE1300761D37 /* SetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GliderPlane_Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = "GliderPlane-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = GliderPlane;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GliderPlane_Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = "GliderPlane-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = GliderPlane;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Leon Pham";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "20CAB370-BA64-4E77-9700-179A5CFA3173";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE1E249B13366CA800921489 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Leon Pham (4ET75RDF26)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A6DABF59-2669-4853-BB07-CA6BF8EFCC2E";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		CE1E249C13366CA800921489 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Leon Pham";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GliderPlane_Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = "GliderPlane-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = GliderPlane;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "20CAB370-BA64-4E77-9700-179A5CFA3173";
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GliderPlane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				CE1E249C13366CA800921489 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GliderPlane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				CE1E249B13366CA800921489 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

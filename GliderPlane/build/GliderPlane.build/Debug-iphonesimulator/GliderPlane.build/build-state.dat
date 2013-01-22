@@ -1,0 +1,1134 @@
+TGliderPlane
+v7
+r0
+t321044586.924218
+cCheck dependencies
+cProcessInfoPlistFile /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Info.plist GliderPlane-Info.plist
+cCompileXIB /Users/user/Documents/GliderPlane/MainWindow.xib
+cCompileXIB /Users/user/Documents/GliderPlane/GliderPlaneViewController.xib
+cCompileXIB /Users/user/Documents/GliderPlane/Classes/PlayViewContoller.xib
+cCompileXIB /Users/user/Documents/GliderPlane/Classes/PauseViewController.xib
+cCompileXIB /Users/user/Documents/GliderPlane/Classes/HelpViewController.xib
+cCpResource build/Debug-iphonesimulator/GliderPlane.app/GameScreen.png GameScreen.png
+cCpResource build/Debug-iphonesimulator/GliderPlane.app/MenuScreen.png MenuScreen.png
+cCpResource build/Debug-iphonesimulator/GliderPlane.app/Default.png Default.png
+cCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Back2.png" "Cloud Back2.png"
+cCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Help2.png" "Cloud Help2.png"
+cCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Highscore2.png" "Cloud Highscore2.png"
+cCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Menu2.png" "Cloud Menu2.png"
+cCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Play2.png" "Cloud Play2.png"
+cCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Resume2.png" "Cloud Resume2.png"
+cCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Settings2.png" "Cloud Settings2.png"
+cCpResource build/Debug-iphonesimulator/GliderPlane.app/Icon.png Icon.png
+cCpResource build/Debug-iphonesimulator/GliderPlane.app/glider.png glider.png
+cProcessPCH /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch.gch GliderPlane_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/main.o /Users/user/Documents/GliderPlane/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GliderPlaneAppDelegate.o /Users/user/Documents/GliderPlane/Classes/GliderPlaneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GliderPlaneViewController.o /Users/user/Documents/GliderPlane/Classes/GliderPlaneViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/PlayViewContoller.o /Users/user/Documents/GliderPlane/Classes/PlayViewContoller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/PauseViewController.o /Users/user/Documents/GliderPlane/Classes/PauseViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/HelpViewController.o /Users/user/Documents/GliderPlane/Classes/HelpViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlane normal i386
+cGenerateDSYMFile /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app.dSYM /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlane
+cTouch /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/user/Documents/GliderPlane/../../Pictures/Background.png
+c000000004D54A20500000000000176A8
+t1297392133
+s95912
+
+N/Users/user/Documents/GliderPlane/../../Pictures/glider.png
+c000000004D5E0C8100000000000006DA
+t1298009217
+s1754
+
+N/Users/user/Documents/GliderPlane/Classes/Glider.h
+c000000004D5C876B00000000000000D3
+t1297909611
+s211
+i<UIKit/UIKit.h>
+
+N/Users/user/Documents/GliderPlane/Classes/Glider.m
+c000000004D5C873B000000000000023E
+t1297909563
+s574
+i"Glider.h"
+
+N/Users/user/Documents/GliderPlane/Classes/GliderPlaneAppDelegate.h
+c000000004D632FDC00000000000001F8
+t1298345948
+s504
+i<UIKit/UIKit.h>
+
+N/Users/user/Documents/GliderPlane/Classes/GliderPlaneAppDelegate.m
+c000000004D632FD60000000000000AD0
+t1298345942
+s2768
+i"GliderPlaneAppDelegate.h"
+i"GliderPlaneViewController.h"
+
+N/Users/user/Documents/GliderPlane/Classes/GliderPlaneViewController.h
+c000000004D74495800000000000002E7
+t1299466584
+s743
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/user/Documents/GliderPlane/Classes/GliderPlaneViewController.m
+c000000004D744A020000000000000E95
+t1299466754
+s3733
+i"GliderPlaneViewController.h"
+i"PlayViewContoller.h"
+i"PauseViewController.h"
+i"HelpViewController.h"
+
+N/Users/user/Documents/GliderPlane/Classes/Goal.h
+c000000004D5C876500000000000000CD
+t1297909605
+s205
+i<UIKit/UIKit.h>
+
+N/Users/user/Documents/GliderPlane/Classes/Goal.m
+c000000004D5C87480000000000000238
+t1297909576
+s568
+i"Goal.h"
+
+N/Users/user/Documents/GliderPlane/Classes/GoalController.h
+c000000004D5CA02C0000000000000165
+t1297915948
+s357
+i<Foundation/Foundation.h>
+
+N/Users/user/Documents/GliderPlane/Classes/GoalController.m
+c000000004D5CA04500000000000000E7
+t1297915973
+s231
+i"GoalController.h"
+
+N/Users/user/Documents/GliderPlane/Classes/HelpViewController.h
+c000000004D632F740000000000000199
+t1298345844
+s409
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/user/Documents/GliderPlane/Classes/HelpViewController.m
+c000000004D73DEC00000000000000A11
+t1299439296
+s2577
+i"HelpViewController.h"
+i"PauseViewController.h"
+i"GliderPlaneViewController.h"
+i"PlayViewContoller.h"
+
+N/Users/user/Documents/GliderPlane/Classes/HelpViewController.xib
+c000000004D6980440000000000004FAB
+t1298759748
+s20395
+
+N/Users/user/Documents/GliderPlane/Classes/HighScoreViewController.h
+c000000004D5B6FBC0000000000000203
+t1297838012
+s515
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/user/Documents/GliderPlane/Classes/HighScoreViewController.m
+c000000004D5B71300000000000000B53
+t1297838384
+s2899
+i"HighScoreViewController.h"
+i"GliderPlaneViewController.h"
+i"PlayViewContoller.h"
+i"SettingsViewController.h"
+i"PauseViewController.h"
+i"HelpViewController.h"
+
+N/Users/user/Documents/GliderPlane/Classes/HighScoreViewController.xib
+c000000004D5B6B0B0000000000005D1E
+t1297836811
+s23838
+
+N/Users/user/Documents/GliderPlane/Classes/PauseViewController.h
+c000000004D71B8A30000000000000276
+t1299298467
+s630
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/user/Documents/GliderPlane/Classes/PauseViewController.m
+c000000004D73DEBD0000000000000D9B
+t1299439293
+s3483
+i"PauseViewController.h"
+i"GliderPlaneViewController.h"
+i"PlayViewContoller.h"
+i"HelpViewController.h"
+
+N/Users/user/Documents/GliderPlane/Classes/PauseViewController.xib
+c000000004D71B89A0000000000007C14
+t1299298458
+s31764
+
+N/Users/user/Documents/GliderPlane/Classes/PlayViewContoller.h
+c000000004D7339EA00000000000005A6
+t1299397098
+s1446
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/user/Documents/GliderPlane/Classes/PlayViewContoller.m
+c000000004D76FE2A0000000000002D47
+t1299643946
+s11591
+i"PlayViewContoller.h"
+i"GliderPlaneViewController.h"
+i"PauseViewController.h"
+i"HelpViewController.h"
+
+N/Users/user/Documents/GliderPlane/Classes/PlayViewContoller.xib
+c000000004D7339360000000000008F87
+t1299396918
+s36743
+
+N/Users/user/Documents/GliderPlane/Classes/SettingsViewController.h
+c000000004D632F94000000000000020A
+t1298345876
+s522
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/user/Documents/GliderPlane/Classes/SettingsViewController.m
+c000000004D65ED4A0000000000000B5B
+t1298525514
+s2907
+i"SettingsViewController.h"
+i"GliderPlaneViewController.h"
+i"PlayViewContoller.h"
+i"PauseViewController.h"
+i"HelpViewController.h"
+
+N/Users/user/Documents/GliderPlane/Classes/SettingsViewController.xib
+c000000004D6980F9000000000000663E
+t1298759929
+s26174
+
+N/Users/user/Documents/GliderPlane/Classes/Target.h
+c000000004D5B58A900000000000000DD
+t1297832105
+s221
+i<Foundation/Foundation.h>
+
+N/Users/user/Documents/GliderPlane/Classes/Target.m
+c000000004D5B589B00000000000000B4
+t1297832091
+s180
+i"Target.h"
+
+N/Users/user/Documents/GliderPlane/Cloud Back.png
+c000000004D6583AC0000000000007C7C
+t1298498476
+s31868
+
+N/Users/user/Documents/GliderPlane/Cloud Back2.png
+c000000004D697CC00000000000002AFB
+t1298758848
+s11003
+
+N/Users/user/Documents/GliderPlane/Cloud Final.png
+c000000004D732C5500000000000005C8
+t1299393621
+s1480
+
+N/Users/user/Documents/GliderPlane/Cloud Help.png
+c000000004D6583AC0000000000007475
+t1298498476
+s29813
+
+N/Users/user/Documents/GliderPlane/Cloud Help2.png
+c000000004D697CC000000000000029B1
+t1298758848
+s10673
+
+N/Users/user/Documents/GliderPlane/Cloud Highscore.png
+c000000004D6583AC0000000000008B38
+t1298498476
+s35640
+
+N/Users/user/Documents/GliderPlane/Cloud Highscore2.png
+c000000004D697CC00000000000003232
+t1298758848
+s12850
+
+N/Users/user/Documents/GliderPlane/Cloud Menu.png
+c000000004D6583AE0000000000007BE0
+t1298498478
+s31712
+
+N/Users/user/Documents/GliderPlane/Cloud Menu2.png
+c000000004D697CC00000000000002ADA
+t1298758848
+s10970
+
+N/Users/user/Documents/GliderPlane/Cloud Play.png
+c000000004D6583AE0000000000007CAA
+t1298498478
+s31914
+
+N/Users/user/Documents/GliderPlane/Cloud Play2.png
+c000000004D697CC00000000000002DF2
+t1298758848
+s11762
+
+N/Users/user/Documents/GliderPlane/Cloud Resume.png
+c000000004D6583AE0000000000008224
+t1298498478
+s33316
+
+N/Users/user/Documents/GliderPlane/Cloud Resume2.png
+c000000004D697CC00000000000003045
+t1298758848
+s12357
+
+N/Users/user/Documents/GliderPlane/Cloud Settings.png
+c000000004D6583AE00000000000082F9
+t1298498478
+s33529
+
+N/Users/user/Documents/GliderPlane/Cloud Settings2.png
+c000000004D697CC000000000000032D9
+t1298758848
+s13017
+
+N/Users/user/Documents/GliderPlane/Default.png
+c000000004D6583AE0000000000020262
+t1298498478
+s131682
+
+N/Users/user/Documents/GliderPlane/GameScreen.png
+c000000004D6583AE000000000001845D
+t1298498478
+s99421
+
+N/Users/user/Documents/GliderPlane/Glider Final.png
+c000000004D732C4900000000000006EF
+t1299393609
+s1775
+
+N/Users/user/Documents/GliderPlane/Glider.png
+c000000004D71A08A0000000000001208
+t1299292298
+s4616
+
+N/Users/user/Documents/GliderPlane/GliderPlaneSplashFinal.png
+c000000004D618BE200000000000203C9
+t1298238434
+s132041
+
+N/Users/user/Documents/GliderPlane/GliderPlaneViewController.xib
+c000000004D744A710000000000007BC1
+t1299466865
+s31681
+
+N/Users/user/Documents/GliderPlane/GliderPlane_Prefix.pch
+c000000004D5A03DC00000000000000BF
+t1297744860
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/user/Documents/GliderPlane/Icon.png
+c000000004D699AEB0000000000001222
+t1298766571
+s4642
+
+N/Users/user/Documents/GliderPlane/MainWindow.xib
+c000000004D5A03DC0000000000004E59
+t1297744860
+s20057
+
+N/Users/user/Documents/GliderPlane/MenuScreen.png
+c000000004D6583AE000000000001DE28
+t1298498478
+s122408
+
+N/Users/user/Documents/GliderPlane/Ring.png
+c000000004D71A00100000000000007FB
+t1299292161
+s2043
+
+N/Users/user/Documents/GliderPlane/SplashEditedFinal.png
+c000000004D6583AE0000000000020262
+t1298498478
+s131682
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app
+t1299351786
+s1156
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app.dSYM
+t1299351786
+s102
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Background.png
+t1298009607
+s95912
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Back.png
+t1298498855
+s31868
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Back2.png
+t1298759218
+s11003
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Final.png
+t2
+s0
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Help.png
+t1298498855
+s29813
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Help2.png
+t1298759218
+s10673
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Highscore.png
+t1298498855
+s35640
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Highscore2.png
+t1298759218
+s12850
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Menu.png
+t1298498855
+s31712
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Menu2.png
+t1298759218
+s10970
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Play.png
+t1298498855
+s31914
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Play2.png
+t1298759218
+s11762
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Resume.png
+t1298498855
+s33316
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Resume2.png
+t1298759218
+s12357
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Settings.png
+t1298498855
+s33529
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Cloud Settings2.png
+t1298759218
+s13017
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Default.png
+t1298498855
+s131682
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GameScreen.png
+t1298498855
+s99421
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Glider Final.png
+t2
+s0
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Glider.png
+t1299292540
+s4616
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlane
+t1299351786
+s47216
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlaneSplashFinal.png
+t2
+s0
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlaneViewController.nib
+t1299342963
+s2330
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/HelpViewController.nib
+t1298759753
+s1554
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/HighScoreViewController.nib
+t1297836868
+s1684
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Icon.png
+t1298766678
+s4642
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Info.plist
+t1298435409
+s654
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/MainWindow.nib
+t1297745843
+s1131
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/MenuScreen.png
+t1298498855
+s122408
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/PauseViewController.nib
+t1299298468
+s2573
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/PkgInfo
+t1298435409
+s8
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/PlayViewContoller.nib
+t1299351745
+s2939
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Ring.png
+t1299292540
+s2043
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/SettingsViewController.nib
+t1298759944
+s1997
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/SplashEditedFinal.png
+t2
+s0
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/glider.png
+t1299292540
+s4616
+
+N/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/goal.png
+t1298177131
+s1025
+
+N/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/Glider.o
+t1297913310
+s37108
+
+N/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GliderPlane.LinkFileList
+c000000004D71B8A3000000000000033F
+t1299298467
+s831
+
+N/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GliderPlaneAppDelegate.o
+t1299298468
+s53068
+
+N/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GliderPlaneViewController.o
+t1299342986
+s57088
+
+N/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/Goal.o
+t1297913310
+s37060
+
+N/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GoalController.o
+t1297915974
+s7184
+
+N/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/HelpViewController.o
+t1299342986
+s46064
+
+N/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/HighScoreViewController.o
+t1298148766
+s48488
+
+N/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/PauseViewController.o
+t1299342986
+s56980
+
+N/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/PlayViewContoller.o
+t1299351786
+s70600
+
+N/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/SettingsViewController.o
+t1298610506
+s48624
+
+N/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/Target.o
+t1297832107
+s5180
+
+N/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/main.o
+t1297745846
+s6292
+
+N/Users/user/Documents/GliderPlane/glider.png
+c000000004D6090FD0000000000000537
+t1298174205
+s1335
+
+N/Users/user/Documents/GliderPlane/goal.png
+c000000004D609C2C0000000000000401
+t1298177068
+s1025
+
+N/Users/user/Documents/GliderPlane/main.m
+c000000004D5A03DC0000000000000165
+t1297744860
+s357
+i<UIKit/UIKit.h>
+
+N/var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch.gch
+t1297745846
+s15453392
+
+NGliderPlane-Info.plist
+c000000004D648D5100000000000003AF
+t1298435409
+s943
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321044586#321044586#0(0"0(0#1#0"8615496288#0"0#
+
+CCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/Glider.o /Users/user/Documents/GliderPlane/Classes/Glider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319606109.443298
+e319606110.568949
+r1
+xCompileC
+xbuild/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/Glider.o
+x/Users/user/Documents/GliderPlane/Classes/Glider.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/user/Documents/GliderPlane/Classes/Glider.m319606109#319606110#0(0"0(0#0#50"/Users/user/Documents/GliderPlane/Classes/Glider.m7308886363102929920#1951"    cd /Users/user/Documents/GliderPlane    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-generated-files.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-own-target-headers.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-all-target-headers.hmap -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-project-headers.hmap -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -I/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/include -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources/i386 -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources -include /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch -c /Users/user/Documents/GliderPlane/Classes/Glider.m -o /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/Glider.o0#
+
+CCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GliderPlaneAppDelegate.o /Users/user/Documents/GliderPlane/Classes/GliderPlaneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320991268.308875
+e320991268.506313
+r1
+xCompileC
+xbuild/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GliderPlaneAppDelegate.o
+x/Users/user/Documents/GliderPlane/Classes/GliderPlaneAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/user/Documents/GliderPlane/Classes/GliderPlaneAppDelegate.m320991268#320991268#0(0"0(0#0#66"/Users/user/Documents/GliderPlane/Classes/GliderPlaneAppDelegate.m8613393472#1983"    cd /Users/user/Documents/GliderPlane    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-generated-files.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-own-target-headers.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-all-target-headers.hmap -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-project-headers.hmap -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -I/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/include -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources/i386 -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources -include /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch -c /Users/user/Documents/GliderPlane/Classes/GliderPlaneAppDelegate.m -o /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GliderPlaneAppDelegate.o0#
+
+CCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GliderPlaneViewController.o /Users/user/Documents/GliderPlane/Classes/GliderPlaneViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321035786.568725
+e321035786.696132
+r1
+xCompileC
+xbuild/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GliderPlaneViewController.o
+x/Users/user/Documents/GliderPlane/Classes/GliderPlaneViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/user/Documents/GliderPlane/Classes/GliderPlaneViewController.m321035786#321035786#0(0"0(0#0#69"/Users/user/Documents/GliderPlane/Classes/GliderPlaneViewController.m8611430624#1989"    cd /Users/user/Documents/GliderPlane    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-generated-files.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-own-target-headers.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-all-target-headers.hmap -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-project-headers.hmap -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -I/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/include -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources/i386 -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources -include /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch -c /Users/user/Documents/GliderPlane/Classes/GliderPlaneViewController.m -o /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GliderPlaneViewController.o0#
+
+CCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/Goal.o /Users/user/Documents/GliderPlane/Classes/Goal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319606109.465382
+e319606110.568701
+r1
+xCompileC
+xbuild/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/Goal.o
+x/Users/user/Documents/GliderPlane/Classes/Goal.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/user/Documents/GliderPlane/Classes/Goal.m319606109#319606110#0(0"0(0#0#48"/Users/user/Documents/GliderPlane/Classes/Goal.m8611375744#1947"    cd /Users/user/Documents/GliderPlane    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-generated-files.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-own-target-headers.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-all-target-headers.hmap -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-project-headers.hmap -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -I/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/include -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources/i386 -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources -include /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch -c /Users/user/Documents/GliderPlane/Classes/Goal.m -o /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/Goal.o0#
+
+CCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GoalController.o /Users/user/Documents/GliderPlane/Classes/GoalController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319608773.999671
+e319608774.110556
+r1
+xCompileC
+xbuild/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GoalController.o
+x/Users/user/Documents/GliderPlane/Classes/GoalController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/user/Documents/GliderPlane/Classes/GoalController.m319608774#319608774#0(0"0(0#0#58"/Users/user/Documents/GliderPlane/Classes/GoalController.m8615467744#1967"    cd /Users/user/Documents/GliderPlane    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-generated-files.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-own-target-headers.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-all-target-headers.hmap -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-project-headers.hmap -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -I/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/include -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources/i386 -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources -include /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch -c /Users/user/Documents/GliderPlane/Classes/GoalController.m -o /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GoalController.o0#
+
+CCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/HelpViewController.o /Users/user/Documents/GliderPlane/Classes/HelpViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321035786.696233
+e321035786.810591
+r1
+xCompileC
+xbuild/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/HelpViewController.o
+x/Users/user/Documents/GliderPlane/Classes/HelpViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/user/Documents/GliderPlane/Classes/HelpViewController.m321035786#321035786#0(0"0(0#0#62"/Users/user/Documents/GliderPlane/Classes/HelpViewController.m8612387008#1975"    cd /Users/user/Documents/GliderPlane    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-generated-files.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-own-target-headers.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-all-target-headers.hmap -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-project-headers.hmap -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -I/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/include -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources/i386 -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources -include /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch -c /Users/user/Documents/GliderPlane/Classes/HelpViewController.m -o /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/HelpViewController.o0#
+
+CCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/HighScoreViewController.o /Users/user/Documents/GliderPlane/Classes/HighScoreViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319841566.689021
+e319841566.800114
+r1
+xCompileC
+xbuild/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/HighScoreViewController.o
+x/Users/user/Documents/GliderPlane/Classes/HighScoreViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/user/Documents/GliderPlane/Classes/HighScoreViewController.m319841566#319841566#0(0"0(0#0#67"/Users/user/Documents/GliderPlane/Classes/HighScoreViewController.m8458726863776408576#1985"    cd /Users/user/Documents/GliderPlane    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-generated-files.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-own-target-headers.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-all-target-headers.hmap -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-project-headers.hmap -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -I/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/include -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources/i386 -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources -include /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch -c /Users/user/Documents/GliderPlane/Classes/HighScoreViewController.m -o /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/HighScoreViewController.o0#
+
+CCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/PauseViewController.o /Users/user/Documents/GliderPlane/Classes/PauseViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321035786.659385
+e321035786.814605
+r1
+xCompileC
+xbuild/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/PauseViewController.o
+x/Users/user/Documents/GliderPlane/Classes/PauseViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/user/Documents/GliderPlane/Classes/PauseViewController.m321035786#321035786#0(0"0(0#0#63"/Users/user/Documents/GliderPlane/Classes/PauseViewController.m8612803872#1977"    cd /Users/user/Documents/GliderPlane    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-generated-files.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-own-target-headers.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-all-target-headers.hmap -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-project-headers.hmap -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -I/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/include -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources/i386 -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources -include /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch -c /Users/user/Documents/GliderPlane/Classes/PauseViewController.m -o /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/PauseViewController.o0#
+
+CCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/PlayViewContoller.o /Users/user/Documents/GliderPlane/Classes/PlayViewContoller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321044586.665904
+e321044586.868106
+r1
+xCompileC
+xbuild/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/PlayViewContoller.o
+x/Users/user/Documents/GliderPlane/Classes/PlayViewContoller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/user/Documents/GliderPlane/Classes/PlayViewContoller.m321044586#321044586#0(0"0(0#0#61"/Users/user/Documents/GliderPlane/Classes/PlayViewContoller.m8614150176#1973"    cd /Users/user/Documents/GliderPlane    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-generated-files.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-own-target-headers.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-all-target-headers.hmap -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-project-headers.hmap -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -I/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/include -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources/i386 -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources -include /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch -c /Users/user/Documents/GliderPlane/Classes/PlayViewContoller.m -o /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/PlayViewContoller.o0#
+
+CCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/SettingsViewController.o /Users/user/Documents/GliderPlane/Classes/SettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320303306.530242
+e320303306.734794
+r1
+xCompileC
+xbuild/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/SettingsViewController.o
+x/Users/user/Documents/GliderPlane/Classes/SettingsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/user/Documents/GliderPlane/Classes/SettingsViewController.m320303306#320303306#0(0"0(0#0#66"/Users/user/Documents/GliderPlane/Classes/SettingsViewController.m8613746304#1983"    cd /Users/user/Documents/GliderPlane    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-generated-files.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-own-target-headers.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-all-target-headers.hmap -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-project-headers.hmap -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -I/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/include -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources/i386 -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources -include /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch -c /Users/user/Documents/GliderPlane/Classes/SettingsViewController.m -o /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/SettingsViewController.o0#
+
+CCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/Target.o /Users/user/Documents/GliderPlane/Classes/Target.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319524907.151046
+e319524907.218506
+r1
+xCompileC
+xbuild/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/Target.o
+x/Users/user/Documents/GliderPlane/Classes/Target.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/user/Documents/GliderPlane/Classes/Target.m319524907#319524907#0(0"0(0#0#50"/Users/user/Documents/GliderPlane/Classes/Target.m8600507424#1951"    cd /Users/user/Documents/GliderPlane    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-generated-files.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-own-target-headers.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-all-target-headers.hmap -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-project-headers.hmap -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -I/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/include -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources/i386 -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources -include /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch -c /Users/user/Documents/GliderPlane/Classes/Target.m -o /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/Target.o0#
+
+CCompileC build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/main.o /Users/user/Documents/GliderPlane/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319438646.763710
+e319438646.930780
+r1
+xCompileC
+xbuild/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/main.o
+x/Users/user/Documents/GliderPlane/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/user/Documents/GliderPlane/main.m319438646#319438646#0(0"0(0#0#40"/Users/user/Documents/GliderPlane/main.m8612919008#1939"    cd /Users/user/Documents/GliderPlane    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-generated-files.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-own-target-headers.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-all-target-headers.hmap -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-project-headers.hmap -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -I/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/include -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources/i386 -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources -include /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch -c /Users/user/Documents/GliderPlane/main.m -o /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/user/Documents/GliderPlane/Classes/HelpViewController.xib
+s320452553.174019
+e320452553.758562
+r1
+xCompileXIB
+x/Users/user/Documents/GliderPlane/Classes/HelpViewController.xib
+lSLF07#2@41"CompileXIB Classes/HelpViewController.xib320452553#320452553#0(0"0(0#0#64"/Users/user/Documents/GliderPlane/Classes/HelpViewController.xib8598730464#583"    cd /Users/user/Documents/GliderPlane    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/HelpViewController.nib /Users/user/Documents/GliderPlane/Classes/HelpViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/user/Documents/GliderPlane/Classes/HighScoreViewController.xib
+s319529668.346816
+e319529668.820062
+r1
+xCompileXIB
+x/Users/user/Documents/GliderPlane/Classes/HighScoreViewController.xib
+lSLF07#2@46"CompileXIB Classes/HighScoreViewController.xib319529668#319529668#0(0"0(0#0#69"/Users/user/Documents/GliderPlane/Classes/HighScoreViewController.xib8612113088#593"    cd /Users/user/Documents/GliderPlane    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/HighScoreViewController.nib /Users/user/Documents/GliderPlane/Classes/HighScoreViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/user/Documents/GliderPlane/Classes/PauseViewController.xib
+s320991267.655942
+e320991268.308551
+r1
+xCompileXIB
+x/Users/user/Documents/GliderPlane/Classes/PauseViewController.xib
+lSLF07#2@42"CompileXIB Classes/PauseViewController.xib320991267#320991268#0(0"0(0#0#65"/Users/user/Documents/GliderPlane/Classes/PauseViewController.xib8611703968#585"    cd /Users/user/Documents/GliderPlane    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/PauseViewController.nib /Users/user/Documents/GliderPlane/Classes/PauseViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/user/Documents/GliderPlane/Classes/PlayViewContoller.xib
+s321044545.499182
+e321044546.008787
+r1
+xCompileXIB
+x/Users/user/Documents/GliderPlane/Classes/PlayViewContoller.xib
+lSLF07#2@40"CompileXIB Classes/PlayViewContoller.xib321044545#321044546#0(0"0(0#0#63"/Users/user/Documents/GliderPlane/Classes/PlayViewContoller.xib8613585792#581"    cd /Users/user/Documents/GliderPlane    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/PlayViewContoller.nib /Users/user/Documents/GliderPlane/Classes/PlayViewContoller.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/user/Documents/GliderPlane/Classes/SettingsViewController.xib
+s320452744.236373
+e320452744.962687
+r1
+xCompileXIB
+x/Users/user/Documents/GliderPlane/Classes/SettingsViewController.xib
+lSLF07#2@45"CompileXIB Classes/SettingsViewController.xib320452744#320452744#0(0"0(0#0#68"/Users/user/Documents/GliderPlane/Classes/SettingsViewController.xib8604518464#591"    cd /Users/user/Documents/GliderPlane    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/SettingsViewController.nib /Users/user/Documents/GliderPlane/Classes/SettingsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/user/Documents/GliderPlane/GliderPlaneViewController.xib
+s321035763.231826
+e321035763.758438
+r1
+xCompileXIB
+x/Users/user/Documents/GliderPlane/GliderPlaneViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@40"CompileXIB GliderPlaneViewController.xib321035763#321035763#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#63"/Users/user/Documents/GliderPlane/GliderPlaneViewController.xib30399641089605732#589"    cd /Users/user/Documents/GliderPlane    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlaneViewController.nib /Users/user/Documents/GliderPlane/GliderPlaneViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/user/Documents/GliderPlane/MainWindow.xib
+s319438642.185690
+e319438643.469080
+r1
+xCompileXIB
+x/Users/user/Documents/GliderPlane/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319438642#319438643#0(0"0(0#0#48"/Users/user/Documents/GliderPlane/MainWindow.xib8612286816#559"    cd /Users/user/Documents/GliderPlane    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/MainWindow.nib /Users/user/Documents/GliderPlane/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Back.png" "Cloud Back.png"
+s320191655.782241
+e320191655.808942
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Back.png
+xCloud Back.png
+lSLF07#2@19"Copy Cloud Back.png320191655#320191655#0(0"0(0#0#48"/Users/user/Documents/GliderPlane/Cloud Back.png8602512384#463"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Back.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Back2.png" "Cloud Back2.png"
+s320452018.237943
+e320452018.276463
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Back2.png
+xCloud Back2.png
+lSLF07#2@20"Copy Cloud Back2.png320452018#320452018#0(0"0(0#0#49"/Users/user/Documents/GliderPlane/Cloud Back2.png8603436960#464"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Back2.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Final.png" "Cloud Final.png"
+r0
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Help.png" "Cloud Help.png"
+s320191655.783025
+e320191655.845802
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Help.png
+xCloud Help.png
+lSLF07#2@19"Copy Cloud Help.png320191655#320191655#0(0"0(0#0#48"/Users/user/Documents/GliderPlane/Cloud Help.png8603879520#463"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Help.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Help2.png" "Cloud Help2.png"
+s320452018.239211
+e320452018.268531
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Help2.png
+xCloud Help2.png
+lSLF07#2@20"Copy Cloud Help2.png320452018#320452018#0(0"0(0#0#49"/Users/user/Documents/GliderPlane/Cloud Help2.png8603156160#464"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Help2.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Highscore.png" "Cloud Highscore.png"
+s320191655.783681
+e320191655.853220
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Highscore.png
+xCloud Highscore.png
+lSLF07#2@24"Copy Cloud Highscore.png320191655#320191655#0(0"0(0#0#53"/Users/user/Documents/GliderPlane/Cloud Highscore.png8606064384#468"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Highscore.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Highscore2.png" "Cloud Highscore2.png"
+s320452018.249774
+e320452018.268325
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Highscore2.png
+xCloud Highscore2.png
+lSLF07#2@25"Copy Cloud Highscore2.png320452018#320452018#0(0"0(0#0#54"/Users/user/Documents/GliderPlane/Cloud Highscore2.png8606060928#469"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Highscore2.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Menu.png" "Cloud Menu.png"
+s320191655.785114
+e320191655.840779
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Menu.png
+xCloud Menu.png
+lSLF07#2@19"Copy Cloud Menu.png320191655#320191655#0(0"0(0#0#48"/Users/user/Documents/GliderPlane/Cloud Menu.png8603256320#463"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Menu.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Menu2.png" "Cloud Menu2.png"
+s320452018.253270
+e320452018.279350
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Menu2.png
+xCloud Menu2.png
+lSLF07#2@20"Copy Cloud Menu2.png320452018#320452018#0(0"0(0#0#49"/Users/user/Documents/GliderPlane/Cloud Menu2.png8604510976#464"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Menu2.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Play.png" "Cloud Play.png"
+s320191655.786182
+e320191655.849672
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Play.png
+xCloud Play.png
+lSLF07#2@19"Copy Cloud Play.png320191655#320191655#0(0"0(0#0#48"/Users/user/Documents/GliderPlane/Cloud Play.png8603745792#463"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Play.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Play2.png" "Cloud Play2.png"
+s320452018.254790
+e320452018.271983
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Play2.png
+xCloud Play2.png
+lSLF07#2@20"Copy Cloud Play2.png320452018#320452018#0(0"0(0#0#49"/Users/user/Documents/GliderPlane/Cloud Play2.png8604295008#464"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Play2.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Resume.png" "Cloud Resume.png"
+s320191655.787426
+e320191655.853688
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Resume.png
+xCloud Resume.png
+lSLF07#2@21"Copy Cloud Resume.png320191655#320191655#0(0"0(0#0#50"/Users/user/Documents/GliderPlane/Cloud Resume.png8604033184#465"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Resume.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Resume2.png" "Cloud Resume2.png"
+s320452018.256371
+e320452018.275198
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Resume2.png
+xCloud Resume2.png
+lSLF07#2@22"Copy Cloud Resume2.png320452018#320452018#0(0"0(0#0#51"/Users/user/Documents/GliderPlane/Cloud Resume2.png8604240352#466"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Resume2.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Settings.png" "Cloud Settings.png"
+s320191655.788953
+e320191655.851856
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Settings.png
+xCloud Settings.png
+lSLF07#2@23"Copy Cloud Settings.png320191655#320191655#0(0"0(0#0#52"/Users/user/Documents/GliderPlane/Cloud Settings.png8602885536#467"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Settings.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Cloud Settings2.png" "Cloud Settings2.png"
+s320452018.258037
+e320452018.274989
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Cloud Settings2.png
+xCloud Settings2.png
+lSLF07#2@24"Copy Cloud Settings2.png320452018#320452018#0(0"0(0#0#53"/Users/user/Documents/GliderPlane/Cloud Settings2.png8604101760#468"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/user/Documents/GliderPlane/Cloud Settings2.png" /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource "build/Debug-iphonesimulator/GliderPlane.app/Glider Final.png" "Glider Final.png"
+r0
+
+CCpResource build/Debug-iphonesimulator/GliderPlane.app/Background.png ../../Pictures/Background.png
+s319702407.155156
+e319702407.189939
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Background.png
+x../../Pictures/Background.png
+lSLF07#2@34"Copy ../../Pictures/Background.png319702407#319702407#0(0"0(0#0#63"/Users/user/Documents/GliderPlane/../../Pictures/Background.png8601752320#476"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Documents/GliderPlane/../../Pictures/Background.png /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource build/Debug-iphonesimulator/GliderPlane.app/Default.png Default.png
+s320191655.801008
+e320191655.855133
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png320191655#320191655#0(0"0(0#0#45"/Users/user/Documents/GliderPlane/Default.png8605752192#458"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Documents/GliderPlane/Default.png /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource build/Debug-iphonesimulator/GliderPlane.app/GameScreen.png GameScreen.png
+s320191655.789727
+e320191655.852569
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/GameScreen.png
+xGameScreen.png
+lSLF07#2@19"Copy GameScreen.png320191655#320191655#0(0"0(0#0#48"/Users/user/Documents/GliderPlane/GameScreen.png8603611200#461"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Documents/GliderPlane/GameScreen.png /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource build/Debug-iphonesimulator/GliderPlane.app/Glider.png Glider.png
+s320985340.170038
+e320985340.267751
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Glider.png
+xGlider.png
+lSLF07#2@15"Copy Glider.png320985340#320985340#0(0"0(0#0#44"/Users/user/Documents/GliderPlane/Glider.png8613387552#457"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Documents/GliderPlane/Glider.png /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource build/Debug-iphonesimulator/GliderPlane.app/GliderPlaneSplashFinal.png GliderPlaneSplashFinal.png
+r0
+
+CCpResource build/Debug-iphonesimulator/GliderPlane.app/Icon.png Icon.png
+s320459477.973658
+e320459478.051001
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Icon.png
+xIcon.png
+lSLF07#2@13"Copy Icon.png320459477#320459478#0(0"0(0#0#42"/Users/user/Documents/GliderPlane/Icon.png8604357024#455"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Documents/GliderPlane/Icon.png /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource build/Debug-iphonesimulator/GliderPlane.app/MenuScreen.png MenuScreen.png
+s320191655.791226
+e320191655.812506
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/MenuScreen.png
+xMenuScreen.png
+lSLF07#2@19"Copy MenuScreen.png320191655#320191655#0(0"0(0#0#48"/Users/user/Documents/GliderPlane/MenuScreen.png8606082752#461"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Documents/GliderPlane/MenuScreen.png /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource build/Debug-iphonesimulator/GliderPlane.app/Ring.png Ring.png
+s320985340.169281
+e320985340.231503
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/Ring.png
+xRing.png
+lSLF07#2@13"Copy Ring.png320985340#320985340#0(0"0(0#0#42"/Users/user/Documents/GliderPlane/Ring.png8613442752#455"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Documents/GliderPlane/Ring.png /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource build/Debug-iphonesimulator/GliderPlane.app/SplashEditedFinal.png SplashEditedFinal.png
+r0
+
+CCpResource build/Debug-iphonesimulator/GliderPlane.app/glider.png ../../Pictures/glider.png
+s319702407.154522
+e319702407.189509
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/glider.png
+x../../Pictures/glider.png
+lSLF07#2@30"Copy ../../Pictures/glider.png319702407#319702407#0(0"0(0#0#59"/Users/user/Documents/GliderPlane/../../Pictures/glider.png8604111648#472"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Documents/GliderPlane/../../Pictures/glider.png /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource build/Debug-iphonesimulator/GliderPlane.app/glider.png glider.png
+s319867106.933230
+e319867106.981113
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/glider.png
+xglider.png
+lSLF07#2@15"Copy glider.png319867106#319867106#0(0"0(0#0#44"/Users/user/Documents/GliderPlane/glider.png8612265696#457"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Documents/GliderPlane/glider.png /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CCpResource build/Debug-iphonesimulator/GliderPlane.app/goal.png goal.png
+s319869931.351076
+e319869931.389959
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GliderPlane.app/goal.png
+xgoal.png
+lSLF07#2@13"Copy goal.png319869931#319869931#0(0"0(0#0#42"/Users/user/Documents/GliderPlane/goal.png8614998880#455"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Documents/GliderPlane/goal.png /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
+CGenerateDSYMFile /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app.dSYM /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlane
+s321044586.895566
+e321044586.920962
+r1
+xGenerateDSYMFile
+x/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app.dSYM
+x/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlane
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/GliderPlane.app.dSYM build/Debug-iphonesimulator/GliderPlane.app/GliderPlane321044586#321044586#0(0"0(0#0#89"/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlane8615619808#380"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlane -o /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app.dSYM0#
+
+CLd /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlane normal i386
+s321044586.868217
+e321044586.895458
+r1
+xLd
+x/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlane
+xnormal
+xi386
+lSLF07#2@94"Link /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlane321044586#321044586#0(0"0(0#0#0"8608023552#917"    cd /Users/user/Documents/GliderPlane    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -filelist /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/Objects-normal/i386/GliderPlane.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/GliderPlane0#
+
+CProcessInfoPlistFile /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Info.plist GliderPlane-Info.plist
+s320128209.975818
+e320128209.980870
+r1
+xProcessInfoPlistFile
+x/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Info.plist
+xGliderPlane-Info.plist
+lSLF07#2@30"Process GliderPlane-Info.plist320128209#320128209#0(0"0(0#0#56"/Users/user/Documents/GliderPlane/GliderPlane-Info.plist8608851776#476"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility GliderPlane-Info.plist -genpkginfo /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app/Info.plist0#
+
+CProcessPCH /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch.gch GliderPlane_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s319438644.685847
+e319438646.763579
+r1
+xProcessPCH
+x/var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch.gch
+xGliderPlane_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile GliderPlane_Prefix.pch319438644#319438646#0(0"0(0#0#56"/Users/user/Documents/GliderPlane/GliderPlane_Prefix.pch8611742048#1832"    cd /Users/user/Documents/GliderPlane    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-generated-files.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-own-target-headers.hmap -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-all-target-headers.hmap -iquote /Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/GliderPlane-project-headers.hmap -F/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator -I/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/include -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources/i386 -I/Users/user/Documents/GliderPlane/build/GliderPlane.build/Debug-iphonesimulator/GliderPlane.build/DerivedSources -c /Users/user/Documents/GliderPlane/GliderPlane_Prefix.pch -o /var/folders/qz/qzFvx3rxEDmoqZ0cN-wyfE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GliderPlane_Prefix-bdypbtaptuztwigjdfivjpexotzp/GliderPlane_Prefix.pch.gch0#
+
+CTouch /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app
+s321044586.921042
+e321044586.924172
+r1
+xTouch
+x/Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app
+lSLF07#2@83"Touch /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app321044586#321044586#0(0"0(0#0#0"8615192672#272"    cd /Users/user/Documents/GliderPlane    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/user/Documents/GliderPlane/build/Debug-iphonesimulator/GliderPlane.app0#
+
